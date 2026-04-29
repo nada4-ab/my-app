@@ -106,7 +106,7 @@ export const Contact = () => {
                       : ""
                   }
                 >
-
+ 
                   <h2>Get In Touch</h2>
 
                   <form onSubmit={handleSubmit}>
