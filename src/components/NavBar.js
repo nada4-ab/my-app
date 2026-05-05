@@ -56,7 +56,9 @@ function NavBar() {
                 <a href="#"><img src={navIcon3} alt="" /></a>
             </div>
             
-            <button className="vvd"><span>Let’s Connect</span></button>
+            <a href="#connect">
+              <button className="vvd"><span>Let’s Connect</span></button>
+            </a>
     
         </span>
         </Navbar.Collapse>

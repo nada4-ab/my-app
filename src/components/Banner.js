@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowDownCircle } from "react-bootstrap-icons";
 import downloadCV from "../assets/img/Nada Resume1.pdf";
 
 export const Banner = () => {
@@ -78,7 +78,7 @@ export const Banner = () => {
             </p>
 
             <button onClick={handleDownload}>
-              Download CV <ArrowRightCircle size={25} />
+              Download CV <ArrowDownCircle size={25} />
             </button>
           </Col>
 

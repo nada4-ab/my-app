@@ -38,12 +38,11 @@ export const Contact = () => {
       formData.append("email", formDetails.email);
       formData.append("phone", formDetails.phone);
       formData.append("message", formDetails.message);
-
       formData.append("_subject", "New Contact Form Submission");
       formData.append("_captcha", "false");
 
       const response = await fetch(
-        "https://formsubmit.co/20234848@fue.edu.eg",
+        "https://formsubmit.co/hadeer.abdelaziz@fue.edu.eg",
         {
           method: "POST",
           body: formData,
